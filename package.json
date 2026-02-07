@@ -1,0 +1,22 @@
+{
+  "name": "tshirt-brand",
+  "version": "1.0.0",
+  "description": "T-shirt brand eCommerce platform",
+  "private": true,
+  "scripts": {
+    "backend-install": "cd backend && npm install",
+    "frontend-install": "cd frontend && npm install",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "setup": "npm install && npm run backend-install && npm run frontend-install"
+  },
+  "keywords": [
+    "ecommerce",
+    "tshirt",
+    "store",
+    "admin",
+    "next.js",
+    "express",
+    "mongodb"
+  ]
+}
